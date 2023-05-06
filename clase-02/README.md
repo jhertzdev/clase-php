@@ -145,7 +145,7 @@ include "cabecera.php";
   <!-- Código del cuerpo de la página -->
 </body>
 </html>
-```
+````
 
 Y en una página contacto.php:
 
@@ -160,7 +160,7 @@ include "cabecera.php";
   <!-- Código del cuerpo de la página -->
 </body>
 </html>
-```
+````
 
 En PHP, `require_once` se utiliza para incluir un archivo en un script, pero a diferencia de `require`, se asegura de que el archivo solo se incluya una vez. Es decir, si el archivo ya ha sido incluido previamente, `require_once` no lo incluirá de nuevo. Esto es útil para evitar errores y problemas de redefinición de funciones o variables que podrían ocurrir si un archivo se incluye varias veces.
 
